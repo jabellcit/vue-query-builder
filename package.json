@@ -1,19 +1,61 @@
 {
-  "name": "vue-query-builder",
-  "version": "0.7.1",
-  "main": "./dist/VueQueryBuilder.common.js",
-  "scripts": {
-    "serve": "vue-cli-service serve --name VueQueryBuilder src/main.js",
-    "build": "vue-cli-service build --target lib --name VueQueryBuilder src/VueQueryBuilder.vue",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+  "_args": [
+    [
+      {
+        "raw": "vue-query-builder@^0.7.1",
+        "scope": null,
+        "escapedName": "vue-query-builder",
+        "name": "vue-query-builder",
+        "rawSpec": "^0.7.1",
+        "spec": ">=0.7.1 <0.8.0",
+        "type": "range"
+      },
+      "/var/www/dataminer2/node_modules"
+    ]
+  ],
+  "_from": "vue-query-builder@>=0.7.1 <0.8.0",
+  "_hasShrinkwrap": false,
+  "_id": "vue-query-builder@0.7.1",
+  "_inCache": true,
+  "_location": "/vue-query-builder",
+  "_nodeVersion": "10.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/vue-query-builder_0.7.1_1549874988140_0.10416519535669821"
   },
+  "_npmUser": {
+    "name": "dabernathy89",
+    "email": "daniel@danielabernathy.com"
+  },
+  "_npmVersion": "6.7.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-query-builder@^0.7.1",
+    "scope": null,
+    "escapedName": "vue-query-builder",
+    "name": "vue-query-builder",
+    "rawSpec": "^0.7.1",
+    "spec": ">=0.7.1 <0.8.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-query-builder/-/vue-query-builder-0.7.1.tgz",
+  "_shasum": "af7f73b763f8cdec7b3776203a7b5d117dd3d1d0",
+  "_shrinkwrap": null,
+  "_spec": "vue-query-builder@^0.7.1",
+  "_where": "/var/www/dataminer2/node_modules",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "dependencies": {
     "vue": "^2.5.16"
   },
+  "description": "Vue Query Builder ======",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-e2e-cypress": "^3.4.0",
@@ -32,15 +74,34 @@
     "vue-template-compiler": "^2.6.5",
     "vuepress": "^0.14.8"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-YZ75jbuzx4Yb8HbIbaJY1CdDGJLxqJtWuT+Q4JrMA5BPCQyO5VS720gy4IlC2msi7HFA9Ro0m7iLiVyjd0bd9w==",
+    "shasum": "af7f73b763f8cdec7b3776203a7b5d117dd3d1d0",
+    "tarball": "https://registry.npmjs.org/vue-query-builder/-/vue-query-builder-0.7.1.tgz",
+    "fileCount": 16,
+    "unpackedSize": 721136,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcYTcsCRA9TVsSAnZWagAAG7UP/io3w5Th7oDoxz/tNIob\n5vESxf8bOctIYAlb/jKJ7M0E8BJ2S5SZOwZavxz17RWOJoMe1G9G00zUEH8/\nr8hFKQcaR2tGwFGXRlaXndmDHOpM+tCIZlWjPkZ1F1nYzC4ufBXGf3GlIy5Q\nAFuaduZxWAdGqJfrf9U3eZqzedtnLPBTJcAWxMq1L+tyoV/lIMm7LASNksMt\nWwizjZyl6faMwrzv1nhB6ZqdYRmxEPLtbpQ78aclpnQPeLPwnHZs0t9dRnWn\n/qYAHXPUCkO0ZGkiUPBO4lB91lEjBST+Y/Q9i3uasA0PxhKibE+0s28QIzGZ\nbevdddI5BbqpQ0CXEri5JqurptXsMVkynHmpFNbFx7R14vOJ0gz7DBHmvX33\nPUANwKCEa3kA6ZEFftZNVEhw0DUNW0/xwwbQsghVkCf/doMWpzrzdkBeixkU\nuVW+pZi6Tl0a8Ii2eQnvIgCnw0RiCFu3niBXGXS4yvF8+J8G+wTbBTRX9Fh0\njW/7IeHImXpp/YsGmzNwBMRoufKdY48fdhbRpfXrY+yX/gmH6EyDelN0HBWq\nzFzYnMxKOI5v/4dGthzGhU78yJ9/rE3DceDDanx3l4x183GQeOpz6ebGxFBO\nIUKk158qySG34aoGhb4oxaPA5XgXPSpBZxt6GNpgdidJ3Yp7t0bglbIE9W3l\nKKEu\r\n=0/ny\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "ee45e7693fb12e58a1593e95eca13e779041cc69",
+  "main": "./dist/VueQueryBuilder.common.js",
+  "maintainers": [
+    {
+      "name": "dabernathy89",
+      "email": "daniel@danielabernathy.com"
+    }
   ],
-  "files": [
-    "dist/",
-    "src/",
-    "LICENSE",
-    "README.md"
-  ]
+  "name": "vue-query-builder",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name VueQueryBuilder src/VueQueryBuilder.vue",
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve --name VueQueryBuilder src/main.js",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "version": "0.7.1"
 }
